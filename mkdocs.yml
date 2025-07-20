@@ -1,0 +1,10 @@
+site_name: Backcountry Cloud
+
+theme:
+  name: material
+
+plugins:
+  - search
+
+nav:
+  - Home: README.MD
