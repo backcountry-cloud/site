@@ -1,10 +1,37 @@
 site_name: Backcountry Cloud
-
+repo_url: https://github.com/backcountry-cloud/site
 theme:
-  name: material
+  pallete:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: backcountry 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: backcountry
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  fonts:
+    text: Quicksand
+    code: JetBrains Mono
+  icon:
+    repo: material/github
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
+  - privacy
 
 nav:
   - Home: README.MD
+

@@ -1,0 +1,15 @@
+[data-md-color-scheme="backcountry"] {
+  --md-primary-fg-color:        #2E7D32;
+  --md-primary-fg-color--light: #87e08c;
+  --md-primary-fg-color--dark:  #034406;
+  --md-accent-fg-color:         #acd5f7;
+  --md-accent-fg-color--light:  #42A5F5;
+  --md-accent-fg-color--dark:   #1a5483;
+/* 
+Color Palette Notes:
+
+Forest Green (#2E7D32) – nature/roots
+Sky Blue (#42A5F5) – cloud/services
+Slate Gray (#37474F) – modern/data
+Optional accent: Soft Cream (#F1F8E9) – for contrast or background */
+}
