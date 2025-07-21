@@ -1,7 +1,8 @@
 site_name: Backcountry Cloud
 repo_url: https://github.com/backcountry-cloud/site
 theme:
-  pallete:
+  name: material
+  palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -19,7 +20,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-  fonts:
+  font:
     text: Quicksand
     code: JetBrains Mono
   icon:
