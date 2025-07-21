@@ -16,7 +16,7 @@ theme:
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: backcountry
+      scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
@@ -25,6 +25,8 @@ theme:
     code: JetBrains Mono
   icon:
     repo: material/github
+  logo: assets/backcountry-cloud-no-text-transparent-cropped-256.png
+
 
 extra_css:
   - stylesheets/extra.css
